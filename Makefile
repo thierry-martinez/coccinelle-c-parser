@@ -56,7 +56,7 @@ parsing_c.cmxa: $(SRC:.ml=.cmx)
 	$(OCAMLLEX) -o $@ $<
 
 %.ml: %.mly
-	$(OCAMLYACC) -o $@ $<
+	$(OCAMLYACC) $<
 
 %.cmi: %.mli
 	$(OCAMLOPT) $(OCAMLFLAGS) -c -o $@ $<
