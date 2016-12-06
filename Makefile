@@ -24,8 +24,8 @@ OCAMLFLAGS=-package pcre,num,str,unix
 OCAMLFIND=ocamlfind
 OCAMLC=$(OCAMLFIND) ocamlc
 OCAMLOPT=$(OCAMLFIND) ocamlopt
-OCAMLLEX=$(OCAMLFIND) ocamllex
-OCAMLYACC=$(OCAMLFIND) ocamlyacc
+OCAMLLEX=ocamllex
+OCAMLYACC=ocamlyacc
 OCAMLDEP=$(OCAMLFIND) ocamldep
 
 .PHONY: all
