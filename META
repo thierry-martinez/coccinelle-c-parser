@@ -1,0 +1,5 @@
+description = "Coccinelle C Parser"
+requires = "pcre,num,str,unix"
+version = "20161206"
+archive(byte) = "parsing_c.cma"
+archive(native) = "parsing_c.cmxa"
